@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.icon-bar {
+	position: fixed;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	z-index: 10;
+	border-radius: 20%;
+}
+
+a {
+	text-decoration: none;
+	width: 210px;
+	background: #3b5999;
+	color: #fff;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 5px;
+	font-size: 20px;
+	transform: translateX(-170px);
+	-webkit-transform: translateX(-170px);
+	-ms-transform: translateX(-170px);
+	transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+}
+
+.facebook {
+	background: #333;
+}
+
+.twitter {
+	background: #333;
+}
+
+.instagram {
+	background: #333;
+}
+
+.youtube {
+	background: #333;
+}
+
+.linkedin {
+	background: #333;
+}
+
+
+a i {
+	padding-left: 20px;
+	font-size: 30px !important;
+	animation: letszoom 3s linear alternate-reverse infinite;
+}
+
+@keyframes letszoom {
+	from {
+		transform: scale(0.8);
+	}
+
+	to {
+		transform: scale(1);
+	}
+
+}
+
+a:hover {
+	transform: translateX(0);
+	-webkit-transform: translateX(0);
+	-ms-transform: translateX(0);
+}
